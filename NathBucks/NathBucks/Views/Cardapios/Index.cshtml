@@ -1,0 +1,53 @@
+﻿@model IEnumerable<NathBucks.Models.Cardapio>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TipoDrink)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TamanhoDrink)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DescricaoDrink)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PrecoDrink)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TipoDrink)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TamanhoDrink)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DescricaoDrink)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PrecoDrink)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdCardapio">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdCardapio">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdCardapio">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

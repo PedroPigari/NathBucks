@@ -1,0 +1,49 @@
+﻿@model NathBucks.Models.Cardapio
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Cardapio</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="IdCardapio" />
+            <div class="form-group">
+                <label asp-for="TipoDrink" class="control-label"></label>
+                <input asp-for="TipoDrink" class="form-control" />
+                <span asp-validation-for="TipoDrink" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TamanhoDrink" class="control-label"></label>
+                <input asp-for="TamanhoDrink" class="form-control" />
+                <span asp-validation-for="TamanhoDrink" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DescricaoDrink" class="control-label"></label>
+                <input asp-for="DescricaoDrink" class="form-control" />
+                <span asp-validation-for="DescricaoDrink" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PrecoDrink" class="control-label"></label>
+                <input asp-for="PrecoDrink" class="form-control" />
+                <span asp-validation-for="PrecoDrink" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
