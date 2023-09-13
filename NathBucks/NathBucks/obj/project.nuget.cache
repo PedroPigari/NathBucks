@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "fcOwndKhOB36HGchoiISCbQo5njHa5q7BkQcsLEXJOfr8/lDAD1KHm9mWZZYQet3iK6wZKyY4rbP+f9/896Jog==",
+  "dgSpecHash": "SpDA/QAQwVuW+t5GVmSk7GwrRkNO/ujAgf1BLv9zhedWM0XRWQqcMa4P+Yzq9Ea9494FO1TnqBVqjCdp+nWTWQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\logonrmlocal\\Source\\Repos\\NathBucks\\NathBucks\\NathBucks\\NathBucks.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\logonrmlocal\\.nuget\\packages\\bootstrap\\5.3.1\\bootstrap.5.3.1.nupkg.sha512",
     "C:\\Users\\logonrmlocal\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\logonrmlocal\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\logonrmlocal\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
