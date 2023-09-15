@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YLQP4gaVYVkaCfRzzwPpmyRXTMqEnjO8YTkavw5WtHo=",
+  "Hash": "w2JBxtwvafcm0ed34zfYwbe4D9vSPWf0SNB3306Pk58=",
   "Source": "NathBucks",
   "BasePath": "_content/NathBucks",
   "Mode": "Default",
@@ -1817,6 +1817,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\logonrmlocal\\Source\\Repos\\NathBucks\\NathBucks\\NathBucks\\wwwroot\\nathbuckslogo.png",
+      "SourceId": "NathBucks",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\logonrmlocal\\Source\\Repos\\NathBucks\\NathBucks\\NathBucks\\wwwroot\\",
+      "BasePath": "_content/NathBucks",
+      "RelativePath": "nathbuckslogo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\nathbuckslogo.png"
     }
   ]
 }
